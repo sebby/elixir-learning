@@ -1,8 +1,8 @@
 # apprentissage du language Exilir.
 
 
-- [ ] Installer les outils
-- [ ] Faire les exos dans learnXinYminutes
+- [x] Installer les outils
+- [x] Faire les exos dans learnXinYminutes
 - [ ]  lire le ebook elixir WIP
 
 

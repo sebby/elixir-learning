@@ -26,3 +26,8 @@ defmodule Examples do
     end
   end
 end
+
+defmodule Examples.User do
+  @derive {Inspect, only: [:name]}
+  defstruct name: "Sebby", roles: []
+end
