@@ -30,4 +30,18 @@ end
 defmodule Examples.User do
   @derive {Inspect, only: [:name]}
   defstruct name: "Sebby", roles: []
+
+  def getName(name) do
+    IO.puts(name)
+  end
+end
+
+defmodule Sayings.Greetings do
+  def basic(name), do: "Hi, #{name}"
+end
+
+defmodule Example do
+  alias Sayings.Greetings, as: Hi
+
+  def greeting(name), do: Hi.basic(name)
 end
